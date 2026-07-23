@@ -210,6 +210,46 @@
     "formTitle": "Send us a message",
     "formSubtitle": "Fill in the form and we'll get back to you within one business day."
   },
+  "placement": {
+    "hub": {
+      "badge": "Free Online Placement Test",
+      "title": "Find your language level",
+      "subtitle": "Take a short multiple-choice test and get your estimated CEFR level (A1–C1) in minutes. Choose a language to begin.",
+      "choose": "Choose a test",
+      "questionsLabel": "questions",
+      "minutes": "~5 minutes",
+      "start": "Start test"
+    },
+    "quiz": {
+      "testLabel": "Placement Test",
+      "question": "Question",
+      "of": "of",
+      "next": "Next",
+      "finish": "See my result",
+      "resultBadge": "Your result",
+      "yourLevelIs": "Your estimated level is",
+      "scoreLabel": "You answered {correct} of {total} correctly.",
+      "levelNames": {
+        "A1": "A1 — Beginner",
+        "A2": "A2 — Elementary",
+        "B1": "B1 — Intermediate",
+        "B2": "B2 — Upper-Intermediate",
+        "C1": "C1 — Advanced"
+      },
+      "leadTitle": "Save your result & get course recommendations",
+      "leadSubtitle": "Enter your details and our team will send tailored course options for your level.",
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "phone": "Phone / WhatsApp",
+      "submit": "Save my result",
+      "sending": "Saving…",
+      "successTitle": "Result saved!",
+      "successBody": "Thank you! Our team will contact you with course recommendations for your level.",
+      "retake": "Retake the test",
+      "error": "Something went wrong. Please try again or contact us on WhatsApp.",
+      "backToHub": "Choose another language"
+    }
+  },
   "forms": {
     "quote": {
       "name": "Full name",
