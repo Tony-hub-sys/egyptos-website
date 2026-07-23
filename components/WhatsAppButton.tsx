@@ -1,7 +1,5 @@
 import { MessageCircle } from "lucide-react";
-
-// Replace with the centre's real WhatsApp number (international format, no +)
-const WHATSAPP_NUMBER = "20000000000";
+import { CENTRE } from "@/lib/site";
 
 export default function WhatsAppButton({
   label = "Chat with us on WhatsApp",
@@ -12,7 +10,7 @@ export default function WhatsAppButton({
 }) {
   return (
     <a
-      href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`}
+      href={`https://wa.me/${CENTRE.whatsapp}?text=${encodeURIComponent(message)}`}
       target="_blank"
       rel="noopener noreferrer"
       aria-label={label}

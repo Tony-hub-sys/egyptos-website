@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { MapPin, Phone, Mail } from "lucide-react";
 import type { Dictionary } from "@/lib/dictionaries";
+import { CENTRE } from "@/lib/site";
 
 export default function Footer({ lang, dict }: { lang: string; dict: Dictionary }) {
   const f = dict.footer;
@@ -42,14 +43,14 @@ export default function Footer({ lang, dict }: { lang: string; dict: Dictionary 
             </li>
             <li className="flex items-center gap-2">
               <Phone className="h-4 w-4 shrink-0 text-gold-400" />
-              <a href="tel:+20000000000" className="hover:text-white" dir="ltr">
-                +20 000 000 0000
+              <a href={`tel:${CENTRE.phoneRaw}`} className="hover:text-white" dir="ltr">
+                {CENTRE.phoneDisplay}
               </a>
             </li>
             <li className="flex items-center gap-2">
               <Mail className="h-4 w-4 shrink-0 text-gold-400" />
-              <a href="mailto:info@egyptoscentre.com" className="hover:text-white">
-                info@egyptoscentre.com
+              <a href={`mailto:${CENTRE.email}`} className="hover:text-white">
+                {CENTRE.email}
               </a>
             </li>
           </ul>
