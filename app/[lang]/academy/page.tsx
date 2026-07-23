@@ -55,13 +55,13 @@ export default async function AcademyPage({
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-slate-300">{t.hero.subtitle}</p>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-            <a
-              href="#placement"
+            <Link
+              href={`/${lang}/placement`}
               className="inline-flex items-center justify-center gap-2 rounded-lg bg-gold-500 px-8 py-4 font-semibold text-brand-900 transition-colors hover:bg-gold-400"
             >
               <ClipboardCheck className="h-5 w-5" />
               {t.hero.ctaPlacement}
-            </a>
+            </Link>
             <Link
               href={`/${lang}/contact`}
               className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/30 px-8 py-4 font-semibold text-white transition-colors hover:bg-white/10"
@@ -128,7 +128,7 @@ export default async function AcademyPage({
           <h2 className="mt-4 text-3xl font-bold tracking-tight">{t.placement.title}</h2>
           <p className="mx-auto mt-3 max-w-xl text-slate-300">{t.placement.subtitle}</p>
           <Link
-            href={`/${lang}/contact`}
+            href={`/${lang}/placement`}
             className="mt-8 inline-flex items-center gap-2 rounded-lg bg-gold-500 px-8 py-4 font-semibold text-brand-900 transition-colors hover:bg-gold-400"
           >
             {t.placement.cta} <ArrowRight className="h-5 w-5 rtl:rotate-180" />
