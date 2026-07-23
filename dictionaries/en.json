@@ -140,5 +140,111 @@
       "cta": "Start the Placement Test",
       "note": "Contact us and we'll send you the test link on WhatsApp or email."
     }
+  },
+  "translationPage": {
+    "hero": {
+      "title": "Translation & Corporate Services",
+      "subtitle": "Nearly a decade of certified translation and professional communication services in Matrouh. Precise. Confidential. On time."
+    },
+    "services": [
+      {
+        "title": "Document Translation",
+        "desc": "Certified Arabic ↔ English translation of legal contracts, court documents, medical reports, academic transcripts, certificates, and personal papers. Formatted to match the original and accepted by embassies, universities, and government offices.",
+        "points": ["Certified & stamped", "Embassy-ready formatting", "Strict confidentiality"]
+      },
+      {
+        "title": "Interpretation",
+        "desc": "Professional consecutive interpretation for business negotiations, medical consultations, legal proceedings, and official appointments — on-site anywhere in Matrouh or remotely by phone and video call.",
+        "points": ["Business & legal settings", "On-site or remote", "Experienced interpreters"]
+      },
+      {
+        "title": "Corporate Writing",
+        "desc": "Clear, persuasive business communication in Arabic and English: proposals, official correspondence, company profiles, reports, and marketing copy that elevate how your organization is perceived.",
+        "points": ["Proposals & reports", "Official correspondence", "Bilingual marketing copy"]
+      }
+    ],
+    "trust": [
+      { "title": "Confidential", "desc": "Your documents are handled with complete discretion." },
+      { "title": "Fast Turnaround", "desc": "Standard documents often delivered within 24–48 hours." },
+      { "title": "Certified Since 2016", "desc": "Trusted by institutions across Matrouh." }
+    ],
+    "quote": {
+      "title": "Request a Free Quote",
+      "subtitle": "Tell us about your project and we'll reply within one business day with pricing and timeline."
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "About Egyptos Centre",
+      "subtitle": "Matrouh's home for languages and translation since 2016."
+    },
+    "storyTitle": "Our story",
+    "story": [
+      "Egyptos Centre for Languages and Translation opened its doors in Matrouh in 2016 with a simple conviction: our city deserved the same quality of language education and professional translation available in Cairo and Alexandria — without the distance.",
+      "What began as a small translation office has grown into a full-service centre. Today we provide certified document translation trusted by embassies and institutions, interpretation for businesses and families, corporate writing services, and a language academy whose flagship 18-Week English Conversation and Writing Program has helped hundreds of students find their voice in English.",
+      "We remain proudly local. Our team knows the community we serve, and every student and client works directly with us — in person, here in Matrouh."
+    ],
+    "cards": [
+      { "title": "Our Mission", "desc": "To elevate education and corporate communication in Matrouh through rigorous language teaching and precise, trustworthy translation." },
+      { "title": "Our Values", "desc": "Accuracy without compromise, confidentiality in everything we handle, and patient, encouraging teaching that meets students where they are." },
+      { "title": "Our Promise", "desc": "Every document delivered on time and embassy-ready. Every student supported from placement test to completion certificate." }
+    ],
+    "rootedTitle": "Rooted in Matrouh",
+    "rootedBody": "Visit our centre, meet the team, and see why families and businesses across the governorate have trusted us for nearly a decade.",
+    "rootedCta": "Get in Touch"
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Questions about courses, the placement test, or a translation project? We'd love to hear from you."
+    },
+    "reachTitle": "Visit or reach us",
+    "address": "Address",
+    "addressValue": "Marsa Matrouh, Matrouh Governorate, Egypt",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Hours",
+    "hoursValue": "Saturday – Thursday, 10:00 AM – 10:00 PM",
+    "whatsapp": "Chat on WhatsApp",
+    "mapTitle": "Egyptos Centre location — Marsa Matrouh",
+    "formTitle": "Send us a message",
+    "formSubtitle": "Fill in the form and we'll get back to you within one business day."
+  },
+  "forms": {
+    "quote": {
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "phone": "Phone / WhatsApp",
+      "service": "Service",
+      "serviceSelect": "Select a service",
+      "serviceOptions": ["Document Translation", "Interpretation", "Corporate Writing", "Other"],
+      "from": "From (language)",
+      "to": "To (language)",
+      "langOptions": ["Arabic", "English", "Other"],
+      "details": "Project details",
+      "detailsPlaceholder": "Document type, page count, deadline…",
+      "submit": "Request Free Quote",
+      "sending": "Sending…",
+      "successTitle": "Quote request received!",
+      "successBody": "We'll get back to you within one business day. For urgent requests, message us on WhatsApp.",
+      "another": "Submit another request",
+      "error": "Something went wrong. Please try again or contact us on WhatsApp."
+    },
+    "contact": {
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "subject": "Subject",
+      "subjectPlaceholder": "Course enrollment, placement test, translation…",
+      "message": "Message",
+      "messagePlaceholder": "How can we help you?",
+      "submit": "Send Message",
+      "sending": "Sending…",
+      "successTitle": "Message sent!",
+      "successBody": "Thank you for reaching out. We'll reply as soon as possible.",
+      "another": "Send another message",
+      "error": "Something went wrong. Please try again or contact us on WhatsApp."
+    }
   }
 }
