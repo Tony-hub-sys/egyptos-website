@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 80" role="img" aria-label="Egyptos Centre for Languages and Translation">
+  <!-- Mark -->
+  <g transform="translate(8 8)">
+    <rect width="64" height="64" rx="14" fill="#0b2d40"/>
+    <circle cx="46" cy="17" r="5" fill="#f3d38a"/>
+    <path d="M32 16 L12 48 H32 Z" fill="#e8b94f"/>
+    <path d="M32 16 L52 48 H32 Z" fill="#b8862f"/>
+    <rect x="14" y="52" width="36" height="3" rx="1.5" fill="#f0f6f9"/>
+    <rect x="22" y="58" width="20" height="2.5" rx="1.25" fill="#1a5f7a"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="86" y="40" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="2" fill="#0b2d40">EGYPTOS</text>
+  <text x="87" y="58" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="1.6" fill="#1a5f7a">CENTRE FOR LANGUAGES &amp; TRANSLATION</text>
+  <text x="87" y="73" font-family="Cairo, Tahoma, Arial, sans-serif" font-size="11" font-weight="600" fill="#b8862f">مركز إيجيبتوس للغات والترجمة</text>
+</svg>
