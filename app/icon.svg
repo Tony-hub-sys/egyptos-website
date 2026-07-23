@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Egyptos Centre mark: pyramid of knowledge + rising sun -->
+  <rect width="64" height="64" rx="14" fill="#0b2d40"/>
+  <!-- sun -->
+  <circle cx="46" cy="17" r="5" fill="#f3d38a"/>
+  <!-- pyramid, light face -->
+  <path d="M32 16 L12 48 H32 Z" fill="#e8b94f"/>
+  <!-- pyramid, shaded face -->
+  <path d="M32 16 L52 48 H32 Z" fill="#b8862f"/>
+  <!-- text lines: language & writing -->
+  <rect x="14" y="52" width="36" height="3" rx="1.5" fill="#f0f6f9"/>
+  <rect x="22" y="58" width="20" height="2.5" rx="1.25" fill="#1a5f7a"/>
+</svg>

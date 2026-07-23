@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand palette — Nile navy + desert gold */
+  --color-brand-50: #f0f6f9;
+  --color-brand-100: #d9e8f0;
+  --color-brand-500: #1a5f7a;
+  --color-brand-600: #14506a;
+  --color-brand-700: #0f3d54;
+  --color-brand-800: #0b2d40;
+  --color-brand-900: #071f2e;
+  --color-gold-300: #f3d38a;
+  --color-gold-400: #e8b94f;
+  --color-gold-500: #d9a441;
+  --color-gold-600: #b8862f;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-arabic: var(--font-cairo), var(--font-inter), sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-slate-800 antialiased;
+}
