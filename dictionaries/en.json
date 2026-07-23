@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "home": "Home",
+    "translation": "Translation",
+    "academy": "Academy",
+    "about": "About",
+    "contact": "Contact",
+    "quote": "Get a Quote",
+    "switchLabel": "العربية"
+  },
+  "footer": {
+    "tagline": "Egyptos Centre for Languages and Translation — elevating education and corporate communication in Matrouh since 2016.",
+    "quickLinks": "Quick Links",
+    "linkTranslation": "Translation Services",
+    "linkAcademy": "Language Academy",
+    "linkPlacement": "Placement Test",
+    "linkQuote": "Request a Quote",
+    "linkAbout": "About Us",
+    "contact": "Contact",
+    "address": "Marsa Matrouh, Matrouh Governorate, Egypt",
+    "rights": "Egyptos Centre for Languages and Translation, Matrouh. All rights reserved."
+  },
+  "whatsapp": {
+    "label": "Chat with us on WhatsApp",
+    "message": "Hello Egyptos Centre! I'd like to ask about your services."
+  },
+  "home": {
+    "hero": {
+      "badge": "Serving Matrouh since 2016",
+      "title": "Where Language Opens",
+      "titleHighlight": "Every Door",
+      "subtitle": "Egyptos Centre for Languages and Translation delivers certified translation, professional interpretation, and world-class language education — trusted by students, families, and businesses across Matrouh for nearly a decade.",
+      "ctaCourses": "Explore Our Courses",
+      "ctaQuote": "Request Translation Quote"
+    },
+    "stats": [
+      { "value": "2016", "label": "Established in Matrouh" },
+      { "value": "1,000+", "label": "Documents translated" },
+      { "value": "18-Week", "label": "Flagship English program" },
+      { "value": "100%", "label": "Local, in-person support" }
+    ],
+    "services": {
+      "title": "Translation & Corporate Services",
+      "subtitle": "Precise, confidential, and delivered on time — for individuals, institutions, and businesses.",
+      "cards": [
+        {
+          "title": "Document Translation",
+          "desc": "Certified translation of legal, medical, academic, and personal documents between Arabic and English — accepted by embassies, universities, and government offices."
+        },
+        {
+          "title": "Interpretation",
+          "desc": "Professional consecutive interpretation for business meetings, medical appointments, and official proceedings, on-site in Matrouh or remotely."
+        },
+        {
+          "title": "Corporate Writing",
+          "desc": "Polished business correspondence, proposals, reports, and marketing copy that represent your organization with clarity and professionalism."
+        }
+      ],
+      "viewAll": "View all translation services"
+    },
+    "academy": {
+      "badge": "Flagship Program",
+      "title": "18-Week English Conversation & Writing Program",
+      "subtitle": "Go from hesitant to confident. Our structured program builds real speaking fluency and professional writing skills through small groups, practical scenarios, and continuous feedback.",
+      "points": [
+        "Small conversation groups led by experienced instructors",
+        "Weekly writing workshops with individual feedback",
+        "Free placement test to start at the right level"
+      ],
+      "ctaDiscover": "Discover the Academy",
+      "ctaPlacement": "Take the Placement Test",
+      "features": [
+        { "title": "18 Weeks", "desc": "A complete journey from foundations to fluency" },
+        { "title": "Small Groups", "desc": "Every student speaks in every session" },
+        { "title": "Real Writing", "desc": "Emails, essays, and workplace documents" },
+        { "title": "Certificate", "desc": "Recognized completion certificate from Egyptos Centre" }
+      ]
+    },
+    "cta": {
+      "title": "Ready to get started?",
+      "subtitle": "Visit us in Matrouh, message us on WhatsApp, or request a free translation quote today.",
+      "quote": "Request a Quote",
+      "contact": "Contact Us"
+    }
+  },
+  "academy": {
+    "hero": {
+      "badge": "Egyptos Language Academy",
+      "title": "The 18-Week English Conversation & Writing Program",
+      "subtitle": "A structured journey from hesitant English to confident, fluent communication — spoken and written. Taught in small groups at our centre in Matrouh.",
+      "ctaPlacement": "Take the Online Placement Test",
+      "ctaEnroll": "Ask About Enrollment"
+    },
+    "why": {
+      "title": "Why our program works",
+      "cards": [
+        {
+          "title": "Speak Every Session",
+          "desc": "Small conversation groups mean every student talks, every class. No hiding in the back row — fluency comes from practice."
+        },
+        {
+          "title": "Write for Real Life",
+          "desc": "Weekly workshops on the writing you actually need: emails, applications, essays, and workplace documents, with individual corrections."
+        },
+        {
+          "title": "Learn at Your Level",
+          "desc": "A free placement test puts you in the right group, so lessons are never too easy or overwhelming."
+        }
+      ]
+    },
+    "journey": {
+      "title": "Your 18-week journey",
+      "phases": [
+        {
+          "weeks": "Weeks 1–6",
+          "title": "Foundations",
+          "desc": "Core grammar in context, essential vocabulary, and guided conversations that build the confidence to speak from day one."
+        },
+        {
+          "weeks": "Weeks 7–12",
+          "title": "Fluency Building",
+          "desc": "Discussion-driven sessions on real-life and workplace topics, paired with weekly writing workshops covering emails and structured paragraphs."
+        },
+        {
+          "weeks": "Weeks 13–18",
+          "title": "Mastery & Application",
+          "desc": "Presentations, debates, and professional writing projects — essays, reports, and formal correspondence — with individual feedback and a final assessment."
+        }
+      ],
+      "includes": [
+        "Completion certificate from Egyptos Centre",
+        "Continuous progress tracking and feedback",
+        "Flexible morning and evening groups",
+        "Materials included — no hidden costs"
+      ]
+    },
+    "placement": {
+      "title": "Find your level in 15 minutes",
+      "subtitle": "Take our free online placement test and we'll recommend the right starting group for you — no obligation, results the same day.",
+      "cta": "Start the Placement Test",
+      "note": "Contact us and we'll send you the test link on WhatsApp or email."
+    }
+  }
+}
