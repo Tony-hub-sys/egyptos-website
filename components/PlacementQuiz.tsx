@@ -38,7 +38,7 @@ export default function PlacementQuiz({
   const [phase, setPhase] = useState<"quiz" | "result">("quiz");
   const [leadStatus, setLeadStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
 
-  const correct = answers.reduce(
+  const correct = answers.reduce<number>(
     (acc, a, i) => acc + (a === questions[i].answer ? 1 : 0),
     0
   );
