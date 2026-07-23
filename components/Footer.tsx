@@ -26,7 +26,7 @@ export default function Footer({ lang, dict }: { lang: string; dict: Dictionary 
           <ul className="mt-4 space-y-2 text-sm">
             <li><Link href={`/${lang}/translation`} className="hover:text-white">{f.linkTranslation}</Link></li>
             <li><Link href={`/${lang}/academy`} className="hover:text-white">{f.linkAcademy}</Link></li>
-            <li><Link href={`/${lang}/academy#placement`} className="hover:text-white">{f.linkPlacement}</Link></li>
+            <li><Link href={`/${lang}/placement`} className="hover:text-white">{f.linkPlacement}</Link></li>
             <li><Link href={`/${lang}/translation#quote`} className="hover:text-white">{f.linkQuote}</Link></li>
             <li><Link href={`/${lang}/about`} className="hover:text-white">{f.linkAbout}</Link></li>
           </ul>
