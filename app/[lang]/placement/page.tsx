@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ClipboardCheck, ArrowRight, Clock } from "lucide-react";
+import { ClipboardCheck, ArrowRight, Clock, GraduationCap } from "lucide-react";
 import { getDictionary, isLocale } from "@/lib/dictionaries";
 import { placementTests } from "@/lib/placement-data";
 
@@ -75,6 +75,28 @@ export default async function PlacementHubPage({
             </Link>
           ))}
         </div>
+
+        {/* Full Goethe A1 exam banner */}
+        <Link
+          href={`/${lang}/exam/german-a1`}
+          className="mt-12 flex flex-col gap-4 rounded-3xl bg-brand-800 p-8 text-white transition-colors hover:bg-brand-700 sm:flex-row sm:items-center sm:justify-between"
+        >
+          <div className="flex items-start gap-4">
+            <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gold-400/15 text-gold-400">
+              <GraduationCap className="h-6 w-6" />
+            </span>
+            <div>
+              <p className="text-xs font-medium uppercase tracking-widest text-gold-300">
+                {dict.exam.badge}
+              </p>
+              <h3 className="mt-1 text-xl font-bold">{dict.exam.title}</h3>
+              <p className="mt-1 text-sm text-slate-300">{dict.exam.subtitle}</p>
+            </div>
+          </div>
+          <span className="inline-flex shrink-0 items-center gap-2 rounded-lg bg-gold-500 px-6 py-3 font-semibold text-brand-900">
+            {dict.exam.start} <ArrowRight className="h-4 w-4 rtl:rotate-180" />
+          </span>
+        </Link>
       </section>
     </>
   );
